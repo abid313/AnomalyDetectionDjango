@@ -1,0 +1,15 @@
+{% extends 'main/base.html' %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+
+Result : 
+<br>
+{% for i in result %}
+{{i}}
+<br>
+{% endfor %}
+<!-- {{ result }} -->
+
+{% endblock %}
