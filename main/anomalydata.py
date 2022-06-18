@@ -6,8 +6,18 @@ from sklearn.preprocessing import MinMaxScaler
 def AnomalyData(epsilon, minsamples, nocluster):
     driver = pd.read_csv('main/data/go_track_tracks.csv')
 
-    driver_x = driver.drop(["id","id_android","time","rating","rating_bus","rating_weather","car_or_bus","linha"],axis=1) 
-    
+    driver_x = driver.drop(
+        [
+            "id",
+            "id_android",
+            "time",
+            "rating",
+            "rating_bus",
+            "rating_weather",
+            "car_or_bus",
+            "linha"
+            ],axis=1) 
+
     x_array = np.array(driver_x)
     
     scaler = MinMaxScaler()
