@@ -6,6 +6,7 @@
 <form action="result" method="post">
     {% csrf_token %}
     {{form.as_p}}
+    <p>Terdapat 2 cluster yang terbentuk (0 dan 1)</p>
     <input type="submit">
 </form>
 {% endblock %}

@@ -15,9 +15,9 @@ def result(response):
             epsilon = float(form.cleaned_data['num1'])
             minsamples = int(form.cleaned_data['num2'])
             nocluster = int(form.cleaned_data['num3'])
-            count = AnomalyData(epsilon, minsamples, nocluster)
+            count, p = AnomalyData(epsilon, minsamples, nocluster)
 
-            return render(response, 'main/result.html', {"result" : count})
+            return render(response, 'main/result.html', {"result" : count, "jumlah" : p})
 
     else:
         form = Result()
