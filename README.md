@@ -8,7 +8,7 @@
 
 # Link Deployment Website : 
 - http://abid313.pythonanywhere.com/
-- This site will be disabled on Monday 19 September 2022
+- This site will be disabled on Monday 23 September 2022
 - Gmail me if you want extend a server 
 - Gmail: abidfajar50@gmail.com
 
