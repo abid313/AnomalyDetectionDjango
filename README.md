@@ -5,6 +5,7 @@
 - Tubagus Alver Alifiady Kartawijaya (1903015138)
 - Muhamad Rifki Maulana (1903015108)
 - Muhammad Abid Fajar (1903015132)
+- Ahmad Syahril (1903015190)
 
 # Link Deployment Website : 
 - http://abid313.pythonanywhere.com/
