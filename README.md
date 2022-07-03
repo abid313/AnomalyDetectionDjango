@@ -1,6 +1,6 @@
 # AnomalyDetectionDjango
-![image](https://user-images.githubusercontent.com/69112136/176980434-32e8402b-3467-4274-8db8-4b2808e908e9.png)
-![image](https://user-images.githubusercontent.com/69112136/176980420-f1b15199-1cd1-40bc-9fa0-87b202bb7edc.png)
+![image](https://user-images.githubusercontent.com/69112136/177029289-eaccbd7a-407e-4396-a944-7f73bd6182d9.png)
+![image](https://user-images.githubusercontent.com/69112136/177029313-cba52b92-8e99-4b7e-84bc-03eecd040110.png)
 # Final Project Data Mining - 6B Teknik Informatika
 ## Anggota:
 - Tubagus Alver Alifiady Kartawijaya (1903015138)
