@@ -2,16 +2,21 @@
 
 {% block title %}Home Page{% endblock %}
 
-{% block content %}
+{% block hasil %}
 
-Result : 
-<br>
-Jumlah data : {{ jumlah }}
-<br>
-{% for i in result %}
-{{i}}
-<br>
-{% endfor %}
-<!-- {{ result }} -->
+<div id="content", name="content", class="main">
+    <div class="row justify-content-center ">
+        <div class="col-4 p-md-5 border border-primary rounded border-5" style="margin-top: 50px; background-color:aliceblue;">
+            Result : <br>
+            Jumlah data : {{ jumlah }}<br><br>
+            
+            {% for i in result %}
+                {{i}}
+                <br>
+            {% endfor %}
+        </div>
+    </div>
+</div>  
+
 
 {% endblock %}
